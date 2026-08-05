@@ -1,8 +1,8 @@
 ---
-title: Wallpaper Engine
-nav_order: 2
+
+title: Wallpaper Engine Rehberi
+parent: Rehberler
+nav_order: 3
 ---
 
 # Wallpaper Engine Rehberi
-
-Bu sayfada Wallpaper Engine arka planı oluşturmayı anlatıyorum.
