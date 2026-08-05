@@ -2,7 +2,7 @@
 
 title: CasaOS Kurulum Rehberi
 parent: Rehberler
-nav_order: 1
+nav_order: 2
 ---
 
 # CasaOS Kurulum Rehberi (Debian Üzerine)
