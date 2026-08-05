@@ -1,18 +1,10 @@
 ---
 ---
 
-.side-bar {
-  align-items: flex-start;
-}
-
-.site-header {
-  flex-shrink: 0;
+.site-title {
+  margin-left: -10px;
 }
 
 .site-nav {
-  padding-top: 0;
-}
-
-.site-nav > ul {
-  margin-top: 0;
+  margin-left: -10px;
 }
