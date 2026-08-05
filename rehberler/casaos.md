@@ -6,11 +6,10 @@ nav_order: 1
 ------------
 
 # CasaOS Kurulum Rehberi (Debian Üzerine)
+
 Bu rehberde **sıfırdan Debian kurarak CasaOS kurulumu**, temel ağ ayarları, disk hazırlığı, Docker kontrolü ve HTTPS (Cloudflare + Nginx Proxy Manager) altyapısına kadar tüm adımları detaylı şekilde anlatıyorum.
 
----
-
-# Gereksinimler
+## Gereksinimler
 * Eski veya yeni bir bilgisayar / mini PC / sunucu
 * En az **2 GB RAM**
 * En az **20 GB boş disk alanı**
