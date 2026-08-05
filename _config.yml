@@ -1,5 +1,9 @@
 title: NexusRulz Docs
 description: Teknoloji, oyun ve Linux rehberleri
-theme: just-the-docs
 
 url: https://nexusrulz.github.io
+
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
