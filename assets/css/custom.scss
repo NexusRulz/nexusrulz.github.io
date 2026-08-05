@@ -2,16 +2,17 @@
 ---
 
 .side-bar {
-  display: flex;
-  flex-direction: column;
+  align-items: flex-start;
+}
+
+.site-header {
+  flex-shrink: 0;
 }
 
 .site-nav {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+  padding-top: 0;
 }
 
-.nav-list {
-  margin-top: auto;
+.site-nav > ul {
+  margin-top: 0;
 }
