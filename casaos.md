@@ -4,11 +4,6 @@ nav_order: 4
 ---
 
 # CasaOS Kurulum Rehberi
----
-
-title: CasaOS Kurulum Rehberi
-nav_order: 2
-------------
 
 # CasaOS Kurulum Rehberi (Debian Üzerine)
 Bu rehberde **sıfırdan Debian kurarak CasaOS kurulumu**, temel ağ ayarları, disk hazırlığı, Docker kontrolü ve HTTPS (Cloudflare + Nginx Proxy Manager) altyapısına kadar tüm adımları detaylı şekilde anlatıyorum.
