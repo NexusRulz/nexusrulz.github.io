@@ -1,9 +1,8 @@
 .side-bar {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
-.site-nav {
+.side-bar .site-nav {
   margin-top: auto;
 }
