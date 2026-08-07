@@ -3,7 +3,7 @@
 title: Ventoy ile Format Atma Rehberi
 parent: Rehberler
 nav_order: 3
-------------
+---
 
 # Ventoy ile Format Atma Rehberi
 Bu rehberde **Ventoy kullanarak USB üzerinden format atmayı** adım adım anlatacağız. Ventoy sayesinde USB belleği her seferinde yeniden yazdırmadan, ISO dosyasını doğrudan kopyalayarak kurulum başlatabilirsiniz.
