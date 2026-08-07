@@ -1,104 +1,184 @@
 <style>
-/* ===== Genel görünüm ===== */
-body {
-  background: #0b0f14 !important;
-  color: #ffffff !important;
+/* ========== Genel Tema ========== */
+:root{
+  --bg:#0b0f14;
+  --bg2:#11161d;
+  --bg3:#161b22;
+  --text:#f8fafc;
+  --muted:#cbd5e1;
+  --gold:#f5c542;
+  --gold2:#ffd84d;
+  --border:rgba(245,197,66,.18);
 }
 
-/* ===== Sol menü ===== */
-.side-bar {
-  width: 16rem !important;
-  padding-left: 0.75rem !important;
-  background: linear-gradient(180deg, #11161d 0%, #0b0f14 100%) !important;
-  border-right: 1px solid rgba(245,197,66,0.25) !important;
+html, body{
+  background: var(--bg) !important;
+  color: var(--text) !important;
+  scroll-behavior:smooth;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* ========== Sidebar ========== */
+.side-bar{
+  width:16rem !important;
+  padding:1rem .75rem !important;
+  background: linear-gradient(180deg,#11161d 0%, #0b0f14 100%) !important;
+  border-right:1px solid var(--border) !important;
+  box-shadow: 6px 0 24px rgba(0,0,0,.25);
+}
+
+.site-title{
+  color:#fff !important;
+  font-weight:800 !important;
+  letter-spacing:.3px;
 }
 
 .site-nav,
 .nav-list,
-.nav-list-item {
-  margin-left: 0 !important;
+.nav-list-item{
+  margin-left:0 !important;
 }
 
 .nav-list-link,
-.nav-list-expander {
-  padding-left: 0.5rem !important;
-  color: #e5e7eb !important;
-  transition: all .2s ease;
+.nav-list-expander{
+  color:var(--muted) !important;
+  border-radius:10px;
+  padding:.55rem .75rem !important;
+  transition:all .18s ease;
 }
 
-/* Menü üzerine gelince */
 .nav-list-link:hover,
-.nav-list-expander:hover {
-  color: #ffd84d !important;
+.nav-list-expander:hover{
+  background:rgba(245,197,66,.10);
+  color:var(--gold2) !important;
   transform: translateX(4px);
 }
 
-/* Aktif sayfa */
 .nav-list .active > .nav-list-link,
-.nav-list-link.active {
-  color: #f5c542 !important;
-  font-weight: 700 !important;
+.nav-list-link.active{
+  background:rgba(245,197,66,.14);
+  color:var(--gold) !important;
+  font-weight:700 !important;
 }
 
-/* ===== İçerik alanı ===== */
-.main {
-  margin-left: 16rem !important;
+/* ========== İçerik Alanı ========== */
+.main{
+  margin-left:16rem !important;
 }
 
-.main-content-wrap {
-  max-width: none !important;
+.main-content-wrap{
+  max-width: 1280px !important;
   width: calc(100vw - 16rem) !important;
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
+  padding:2rem 2.5rem !important;
 }
 
-.main-content {
-  max-width: none !important;
-  width: 100% !important;
-  margin: 0 !important;
-  color: #ffffff !important;
+.main-content{
+  color:var(--text) !important;
 }
 
-/* Tüm yazılar */
-.main-content,
-.main-content p,
-.main-content li,
-.main-content ul,
-.main-content ol,
-.main-content td,
-.main-content th,
-.main-content blockquote {
-  color: #ffffff !important;
-}
-
-/* Başlıklar */
-.main-content h1 {
-  color: #ffffff !important;
-  border-bottom: 2px solid #f5c542;
-  padding-bottom: .4rem;
+.main-content h1{
+  color:#fff !important;
+  font-size:2.4rem !important;
+  font-weight:800 !important;
+  border-bottom:2px solid rgba(245,197,66,.45);
+  padding-bottom:.45rem;
 }
 
 .main-content h2,
-.main-content h3,
-.main-content h4,
-.main-content h5,
-.main-content h6 {
-  color: #f5c542 !important;
+.main-content h3{
+  color:var(--gold) !important;
+  margin-top:2rem;
 }
 
-/* Kod blokları */
-.main-content pre,
-.main-content code {
-  background: #161b22 !important;
-  border: 1px solid rgba(245,197,66,0.18);
-  border-radius: 10px;
+/* ========== Paragraflar ========== */
+.main-content p,
+.main-content li,
+.main-content td,
+.main-content th{
+  color:var(--text) !important;
+  line-height:1.8;
+  font-size:1rem;
 }
 
-/* Alıntı kutuları */
-.main-content blockquote {
-  background: #11161d;
-  border-left: 4px solid #f5c542;
-  border-radius: 10px;
-  padding: 1rem;
+/* ========== Kod Blokları ========== */
+.main-content pre{
+  background: var(--bg3) !important;
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:1rem 1.1rem;
+  overflow:auto;
+}
+
+.main-content code{
+  background:#161b22 !important;
+  color:#ffe08a !important;
+  border:1px solid rgba(245,197,66,.15);
+  border-radius:8px;
+  padding:.15rem .35rem;
+}
+
+/* ========== Tablolar ========== */
+.main-content table{
+  border-collapse: separate;
+  border-spacing:0;
+  overflow:hidden;
+  border-radius:14px;
+  border:1px solid var(--border);
+}
+
+.main-content th{
+  background:#151b22;
+}
+
+.main-content td{
+  background:#0f141b;
+}
+
+/* ========== Blockquote ========== */
+.main-content blockquote{
+  background:#11161d;
+  border-left:4px solid var(--gold);
+  border-radius:12px;
+  padding:1rem 1rem 1rem 1.1rem;
+  color:var(--text) !important;
+}
+
+/* ========== Butonlar ========== */
+.btn,
+a.btn{
+  background: linear-gradient(180deg, var(--gold2), var(--gold));
+  color:#111 !important;
+  border:none !important;
+  border-radius:12px !important;
+  font-weight:700;
+  box-shadow:0 8px 22px rgba(245,197,66,.22);
+}
+
+.btn:hover,
+a.btn:hover{
+  filter:brightness(1.05);
+  transform: translateY(-1px);
+}
+
+/* ========== Scrollbar ========== */
+::-webkit-scrollbar{
+  width:10px;
+  height:10px;
+}
+::-webkit-scrollbar-track{
+  background:#0b0f14;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(180deg, var(--gold2), var(--gold));
+  border-radius:999px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background:#ffd84d;
+}
+
+/* ========== Seçim Rengi ========== */
+::selection{
+  background: rgba(245,197,66,.35);
+  color:#fff;
 }
 </style>
