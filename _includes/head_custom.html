@@ -1,8 +1,16 @@
 <style>
-/* Sidebar */
+/* ===== Genel görünüm ===== */
+body {
+  background: #0b0f14 !important;
+  color: #ffffff !important;
+}
+
+/* ===== Sol menü ===== */
 .side-bar {
   width: 16rem !important;
   padding-left: 0.75rem !important;
+  background: linear-gradient(180deg, #11161d 0%, #0b0f14 100%) !important;
+  border-right: 1px solid rgba(245,197,66,0.25) !important;
 }
 
 .site-nav,
@@ -14,9 +22,25 @@
 .nav-list-link,
 .nav-list-expander {
   padding-left: 0.5rem !important;
+  color: #e5e7eb !important;
+  transition: all .2s ease;
 }
 
-/* İçerik alanını tam genişlet */
+/* Menü üzerine gelince */
+.nav-list-link:hover,
+.nav-list-expander:hover {
+  color: #ffd84d !important;
+  transform: translateX(4px);
+}
+
+/* Aktif sayfa */
+.nav-list .active > .nav-list-link,
+.nav-list-link.active {
+  color: #f5c542 !important;
+  font-weight: 700 !important;
+}
+
+/* ===== İçerik alanı ===== */
 .main {
   margin-left: 16rem !important;
 }
@@ -32,9 +56,10 @@
   max-width: none !important;
   width: 100% !important;
   margin: 0 !important;
+  color: #ffffff !important;
 }
 
-/* Yazılar beyaz */
+/* Tüm yazılar */
 .main-content,
 .main-content p,
 .main-content li,
@@ -42,13 +67,38 @@
 .main-content ol,
 .main-content td,
 .main-content th,
-.main-content blockquote,
-.main-content h1,
+.main-content blockquote {
+  color: #ffffff !important;
+}
+
+/* Başlıklar */
+.main-content h1 {
+  color: #ffffff !important;
+  border-bottom: 2px solid #f5c542;
+  padding-bottom: .4rem;
+}
+
 .main-content h2,
 .main-content h3,
 .main-content h4,
 .main-content h5,
 .main-content h6 {
-  color: #fff !important;
+  color: #f5c542 !important;
+}
+
+/* Kod blokları */
+.main-content pre,
+.main-content code {
+  background: #161b22 !important;
+  border: 1px solid rgba(245,197,66,0.18);
+  border-radius: 10px;
+}
+
+/* Alıntı kutuları */
+.main-content blockquote {
+  background: #11161d;
+  border-left: 4px solid #f5c542;
+  border-radius: 10px;
+  padding: 1rem;
 }
 </style>
