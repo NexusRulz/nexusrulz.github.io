@@ -5,10 +5,18 @@
   padding-left: 0 !important;
 }
 
-.site-nav,
-.nav-list,
-.nav-list-item,
+.site-nav {
+  padding-left: 0 !important;
+}
+
+.nav-list {
+  padding-left: 0 !important;
+}
+
+.nav-list .nav-list-item {
+  margin-left: 0 !important;
+}
+
 .nav-list-link {
   padding-left: 0 !important;
-  margin-left: 0 !important;
 }
