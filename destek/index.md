@@ -1,5 +1,5 @@
 # Destek
-Benimle iletişime geçmek için aşağıdaki platformları kullanabilirsin.
+AYAZ TEKNOLOJI ile ilgili yardım almak, öneri göndermek veya benimle iletişime geçmek için aşağıdaki platformları kullanabilirsin.
 
 <div style="display:flex; gap:20px; align-items:center;">
   <a href="[https://discord.gg/SENINLINKIN](https://discord.gg/FV5QUSkaaf)">
