@@ -2,7 +2,7 @@
 AYAZ TEKNOLOJI ile ilgili yardım almak, öneri göndermek veya benimle iletişime geçmek için aşağıdaki platformları kullanabilirsin.
 
 <div style="display:flex; gap:20px; align-items:center;">
-  <a href="[https://discord.gg/SENINLINKIN](https://discord.gg/FV5QUSkaaf)">
+  <a href="https://discord.gg/FV5QUSkaaf">
     <img src="/assets/images/discord.png" width="64" height="64" alt="Discord">
   </a>
 
