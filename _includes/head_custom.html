@@ -16,23 +16,25 @@
   padding-left: 0.5rem !important;
 }
 
-/* İçerik alanı */
+/* İçerik alanını tam genişlet */
 .main {
   margin-left: 16rem !important;
 }
 
 .main-content-wrap {
-  max-width: 1200px !important;   /* Yazılar daha uzun satırda devam eder */
-  width: calc(100% - 16rem) !important;
+  max-width: none !important;
+  width: calc(100vw - 16rem) !important;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
 }
 
 .main-content {
+  max-width: none !important;
+  width: 100% !important;
   margin: 0 !important;
 }
 
-/* Tüm içerik yazıları bembeyaz */
+/* Yazılar beyaz */
 .main-content,
 .main-content p,
 .main-content li,
@@ -40,17 +42,13 @@
 .main-content ol,
 .main-content td,
 .main-content th,
-.main-content blockquote {
-  color: #ffffff !important;
-}
-
-/* Başlıklar */
+.main-content blockquote,
 .main-content h1,
 .main-content h2,
 .main-content h3,
 .main-content h4,
 .main-content h5,
 .main-content h6 {
-  color: #ffffff !important;
+  color: #fff !important;
 }
 </style>
