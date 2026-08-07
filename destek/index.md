@@ -1,39 +1,16 @@
----
-
-title: Destek
-nav_order: 3
----
 # Destek
-AYAZ TEKNOLOJI ile ilgili yardım almak, öneri göndermek veya benimle iletişime geçmek için aşağıdaki platformları kullanabilirsin.
+Benimle iletişime geçmek için aşağıdaki platformları kullanabilirsin.
 
----
+<div style="display:flex; gap:20px; align-items:center;">
+  <a href="[https://discord.gg/SENINLINKIN](https://discord.gg/FV5QUSkaaf)">
+    <img src="/assets/images/discord.webp" width="64" height="64" alt="Discord">
+  </a>
 
-## İletişim
+  <a href="https://instagram.com/a.ozturk7106">
+    <img src="/assets/images/instagram.jpg" width="64" height="64" alt="Instagram">
+  </a>
 
-### Discord
-Topluluğa katıl, soru sor ve rehberlerle ilgili destek al.
-**Sunucu:** [https://discord.gg/ORNEK](https://discord.gg/FV5QUSkaaf)
-
----
-
-### Instagram
-Yeni rehberler, projeler ve duyurular için takip edebilirsin.
-**Profil:** [https://instagram.com/nexusrulz](https://www.instagram.com/a.ozturk7106/)
-
----
-
-### GitHub
-Sitenin kaynak kodu ve projeler burada yer alıyor.
-**GitHub:** [https://github.com/NexusRulz](https://github.com/NexusRulz)
-
----
-
-### E-posta
-Özel destek veya iş birliği için ulaşabilirsin.
-**E-posta:** [ayazozturk7106@gmail.com](ayazozturk7106@gmail.com)
-
----
-
-## Geri Bildirim
-Bir rehberde hata fark ettiysen veya yeni bir rehber önerin varsa Discord veya GitHub üzerinden bana ulaşabilirsin.
-Teşekkürler!
+  <a href="https://github.com/NexusRulz">
+    <img src="/assets/images/github.ico" width="64" height="64" alt="GitHub">
+  </a>
+</div>
