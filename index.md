@@ -4,7 +4,7 @@ title: Ana Sayfa
 nav_order: 1
 ---
 
-# NexusRulz Docs
+# AYAZ TEKNOLOJI
 
 **Teknoloji, Linux, oyun, donanım ve ev sunucusu projeleri üzerine hazırladığım kişisel bilgi arşivine hoş geldin.**
 
@@ -25,4 +25,4 @@ Kopyala-yapıştır komutlardan oluşan kısa notlar yerine, **neden yapıldığ
 
 ---
 
-> **NexusRulz Docs** sürekli güncellenen kişisel bir teknik dokümantasyon arşividir. Yeni rehberler eklendikçe bu sayfa da genişlemeye devam edecektir.
+> **AYAZ TEKNOLOJI** sürekli güncellenen kişisel bir teknik dokümantasyon arşividir. Yeni rehberler eklendikçe bu sayfa da genişlemeye devam edecektir.
